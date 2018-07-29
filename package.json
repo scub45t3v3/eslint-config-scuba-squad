@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-scuba-squad",
+  "description": "ESLint config for scuba-squad code standard",
+  "version": "0.0.0",
+  "public": true,
+  "main": ".eslintrc.js",
+  "license": "MIT",
+  "author": {
+    "name": "Steve Winberg",
+    "email": "stevewin21@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scub45t3v3/eslint-config-scuba-squad"
+  },
+  "keywords": [
+    "scuba-squad",
+    "eslint-config",
+    "eslint",
+    "config",
+    "lint",
+    "style",
+    "standard"
+  ],
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha test"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "unit.js": "^2.0.0"
+  }
+}
