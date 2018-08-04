@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-scuba-squad",
   "description": "ESLint config for scuba-squad code standard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "public": true,
   "main": ".eslintrc.js",
   "license": "MIT",
