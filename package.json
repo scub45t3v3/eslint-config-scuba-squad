@@ -3,7 +3,7 @@
   "description": "ESLint config for scuba-squad code standard",
   "version": "1.0.0",
   "public": true,
-  "main": ".eslintrc.js",
+  "main": ".eslintrc.json",
   "license": "MIT",
   "author": {
     "name": "Steve Winberg",
