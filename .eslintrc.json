@@ -362,7 +362,7 @@
       "warn",
       25,
       {
-        "ignoreTopLevelFunctions": true
+        "ignoreTopLevelFunctions": false
       }
     ],
     "max-statements-per-line": [
