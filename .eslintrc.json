@@ -611,6 +611,9 @@
     "no-magic-numbers": [
       "off"
     ],
+    "no-misleading-character-class": [
+      "error"
+    ],
     "no-mixed-operators": [
       "error",
       {
