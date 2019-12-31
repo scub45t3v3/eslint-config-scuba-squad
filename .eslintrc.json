@@ -181,6 +181,10 @@
       "warn",
       "expression"
     ],
+    "function-call-argument-newline": [
+      "warn",
+      "consistent"
+    ],
     "function-paren-newline": [
       "error",
       "multiline"
