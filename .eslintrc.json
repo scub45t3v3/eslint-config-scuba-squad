@@ -1080,6 +1080,9 @@
     "prefer-exponentiation-operator": [
       "warn"
     ],
+    "prefer-named-capture-group": [
+      "error"
+    ],
     "prefer-numeric-literals": [
       "error"
     ],
