@@ -473,6 +473,9 @@
     "no-dupe-class-members": [
       "error"
     ],
+    "no-dupe-else-if": [
+      "error"
+    ],
     "no-dupe-keys": [
       "error"
     ],
