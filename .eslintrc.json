@@ -1119,6 +1119,9 @@
       "warn",
       "as-needed"
     ],
+    "require-atomic-updates": [
+      "error"
+    ],
     "require-await": [
       "error"
     ],
