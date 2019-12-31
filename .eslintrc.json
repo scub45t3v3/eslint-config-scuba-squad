@@ -449,6 +449,9 @@
         "checkLoops": true
       }
     ],
+    "no-constructor-return": [
+      "error"
+    ],
     "no-continue": [
       "warn"
     ],
