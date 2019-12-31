@@ -919,7 +919,7 @@
       "error"
     ],
     "no-var": [
-      "warn"
+      "error"
     ],
     "no-void": [
       "error"
