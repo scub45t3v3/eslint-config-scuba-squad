@@ -1122,9 +1122,6 @@
     "require-await": [
       "error"
     ],
-    "require-jsdoc": [
-      "off"
-    ],
     "require-yield": [
       "error"
     ],
