@@ -1077,6 +1077,9 @@
         "enforceForRenamedProperties": false
       }
     ],
+    "prefer-exponentiation-operator": [
+      "warn"
+    ],
     "prefer-numeric-literals": [
       "error"
     ],
