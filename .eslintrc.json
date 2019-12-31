@@ -138,6 +138,9 @@
     "default-case": [
       "warn"
     ],
+    "default-param-last": [
+      "error"
+    ],
     "dot-location": [
       "error",
       "property"
