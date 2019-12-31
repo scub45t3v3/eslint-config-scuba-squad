@@ -401,6 +401,9 @@
     "no-array-constructor": [
       "warn"
     ],
+    "no-async-promise-executor": [
+      "error"
+    ],
     "no-await-in-loop": [
       "error"
     ],
