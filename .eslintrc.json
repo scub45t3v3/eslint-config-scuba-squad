@@ -1135,6 +1135,9 @@
       "error",
       "never"
     ],
+    "require-unicode-regexp": [
+      "warn"
+    ],
     "semi": [
       "error",
       "always"
