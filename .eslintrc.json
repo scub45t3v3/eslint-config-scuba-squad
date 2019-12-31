@@ -205,6 +205,10 @@
     "global-require": [
       "off"
     ],
+    "grouped-accessor-pairs": [
+      "error",
+      "getBeforeSet"
+    ],
     "guard-for-in": [
       "off"
     ],
