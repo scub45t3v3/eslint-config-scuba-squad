@@ -1248,9 +1248,6 @@
     "use-isnan": [
       "error"
     ],
-    "valid-jsdoc": [
-      "off"
-    ],
     "valid-typeof": [
       "error",
       {
