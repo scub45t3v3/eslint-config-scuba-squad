@@ -781,6 +781,9 @@
     "no-sequences": [
       "error"
     ],
+    "no-setter-return": [
+      "error"
+    ],
     "no-shadow": [
       "off",
       {
