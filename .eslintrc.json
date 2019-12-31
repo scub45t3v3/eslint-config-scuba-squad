@@ -565,6 +565,9 @@
     "no-implied-eval": [
       "error"
     ],
+    "no-import-assign": [
+      "error"
+    ],
     "no-inline-comments": [
       "off"
     ],
