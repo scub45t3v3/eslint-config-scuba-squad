@@ -30,7 +30,7 @@
     "node": ">= 10"
   },
   "devDependencies": {
-    "mocha": "^8.0.0",
+    "mocha": "~8.1.0",
     "nyc": "^15.0.0",
     "unit.js": "^2.1.1"
   }
