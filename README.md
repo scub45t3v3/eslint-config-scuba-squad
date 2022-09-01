@@ -1,5 +1,5 @@
 # eslint-config-scuba-squad
-[![Build Status](https://travis-ci.org/scub45t3v3/eslint-config-scuba-squad.svg?branch=master)](https://travis-ci.org/scub45t3v3/eslint-config-scuba-squad)
+[![Build Status](https://github.com/scub45t3v3/eslint-config-scuba-squad/workflows/CI/badge.svg?event=push)](https://github.com/scub45t3v3/eslint-config-scuba-squad/actions)
 
 ## Purpose
 Provide a standard shareable extendable ESLint configuration
