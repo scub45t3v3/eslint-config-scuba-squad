@@ -67,15 +67,6 @@
       "error",
       "1tbs"
     ],
-    "callback-return": [
-      "warn",
-      [
-        "callback",
-        "cb",
-        "done",
-        "next"
-      ]
-    ],
     "camelcase": [
       "error",
       {
@@ -202,21 +193,11 @@
         "allowImplicit": false
       }
     ],
-    "global-require": [
-      "off"
-    ],
     "grouped-accessor-pairs": [
       "error",
       "getBeforeSet"
     ],
     "guard-for-in": [
-      "off"
-    ],
-    "handle-callback-err": [
-      "warn",
-      "^.*([eE][rR]{2}(?:[oO][rR])?).*$"
-    ],
-    "id-blacklist": [
       "off"
     ],
     "id-length": [
@@ -409,9 +390,6 @@
     ],
     "no-bitwise": [
       "off"
-    ],
-    "no-buffer-constructor": [
-      "error"
     ],
     "no-caller": [
       "error"
@@ -654,13 +632,6 @@
         "allowSamePrecedence": true
       }
     ],
-    "no-mixed-requires": [
-      "error",
-      {
-        "grouping": false,
-        "allowCall": true
-      }
-    ],
     "no-mixed-spaces-and-tabs": [
       "error"
     ],
@@ -696,9 +667,6 @@
     "no-new-object": [
       "error"
     ],
-    "no-new-require": [
-      "error"
-    ],
     "no-new-symbol": [
       "error"
     ],
@@ -717,17 +685,8 @@
     "no-param-reassign": [
       "off"
     ],
-    "no-path-concat": [
-      "error"
-    ],
     "no-plusplus": [
       "off"
-    ],
-    "no-process-env": [
-      "warn"
-    ],
-    "no-process-exit": [
-      "warn"
     ],
     "no-proto": [
       "error"
@@ -745,9 +704,6 @@
       "off"
     ],
     "no-restricted-imports": [
-      "off"
-    ],
-    "no-restricted-modules": [
       "off"
     ],
     "no-restricted-properties": [
@@ -794,12 +750,6 @@
     ],
     "no-sparse-arrays": [
       "error"
-    ],
-    "no-sync": [
-      "error",
-      {
-        "allowAtRootLevel": false
-      }
     ],
     "no-tabs": [
       "error"
