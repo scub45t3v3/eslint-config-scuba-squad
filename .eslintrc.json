@@ -34,7 +34,8 @@
     "array-callback-return": [
       "error",
       {
-        "allowImplicit": false
+        "allowImplicit": true,
+        "checkForEach": true
       }
     ],
     "array-element-newline": [
@@ -213,7 +214,8 @@
       "off"
     ],
     "implicit-arrow-linebreak": [
-      "off"
+      "error",
+      "beside"
     ],
     "indent": [
       "error",
@@ -535,7 +537,11 @@
       "error"
     ],
     "no-fallthrough": [
-      "warn"
+      "warn",
+      {
+        "commentPattern": "break[\\s\\w]*omitted|fallthrough|continue",
+        "allowEmptyCase": true
+      }
     ],
     "no-floating-decimal": [
       "error"
@@ -602,7 +608,15 @@
       "error"
     ],
     "no-magic-numbers": [
-      "off"
+      "warn",
+      {
+        "ignore": [],
+        "ignoreArrayIndexes": true,
+        "ignoreDefaultValues": true,
+        "ignoreClassFieldInitialValues": true,
+        "enforceConst": false,
+        "detectObjects": false
+      }
     ],
     "no-misleading-character-class": [
       "error"
@@ -825,9 +839,14 @@
     "no-underscore-dangle": [
       "error",
       {
+        "allow": ["_id"],
         "allowAfterThis": false,
         "allowAfterSuper": false,
-        "enforceInMethodNames": true
+        "enforceInMethodNames": true,
+        "enforceInClassFields": true,
+        "allowInArrayDestructuring": false,
+        "allowInObjectDestructuring": false,
+        "allowFunctionParams": false
       }
     ],
     "no-unexpected-multiline": [
