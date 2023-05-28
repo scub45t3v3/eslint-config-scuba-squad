@@ -129,6 +129,9 @@
     "default-case": [
       "warn"
     ],
+    "default-case-last": [
+      "error"
+    ],
     "default-param-last": [
       "error"
     ],
@@ -198,6 +201,9 @@
       "getBeforeSet"
     ],
     "guard-for-in": [
+      "off"
+    ],
+    "id-denylist": [
       "off"
     ],
     "id-length": [
@@ -293,6 +299,9 @@
       {
         "exceptAfterSingleLine": true
       }
+    ],
+    "logical-assignment-operators": [
+      "off"
     ],
     "max-classes-per-file": [
       "error",
@@ -418,6 +427,9 @@
     "no-const-assign": [
       "error"
     ],
+    "no-constant-binary-expression": [
+      "error"
+    ],
     "no-constant-condition": [
       "error",
       {
@@ -482,6 +494,9 @@
       "warn"
     ],
     "no-empty-pattern": [
+      "error"
+    ],
+    "no-empty-static-block": [
       "error"
     ],
     "no-eq-null": [
@@ -583,6 +598,9 @@
     "no-loop-func": [
       "error"
     ],
+    "no-loss-of-precision": [
+      "error"
+    ],
     "no-magic-numbers": [
       "off"
     ],
@@ -664,6 +682,9 @@
     "no-new-func": [
       "error"
     ],
+    "no-new-native-nonconstructor": [
+      "error"
+    ],
     "no-new-object": [
       "error"
     ],
@@ -671,6 +692,9 @@
       "error"
     ],
     "no-new-wrappers": [
+      "error"
+    ],
+    "no-nonoctal-decimal-escape": [
       "error"
     ],
     "no-obj-calls": [
@@ -688,6 +712,9 @@
     "no-plusplus": [
       "off"
     ],
+    "no-promise-executor-return": [
+      "error"
+    ],
     "no-proto": [
       "error"
     ],
@@ -699,6 +726,19 @@
     ],
     "no-regex-spaces": [
       "error"
+    ],
+    "no-restricted-exports": [
+      "warn",
+      {
+        "restrictedNamedExports": [],
+        "restrictDefaultExports": {
+          "direct": true,
+          "named": true,
+          "defaultFrom": true,
+          "namedFrom": true,
+          "namespaceFrom": true
+        }
+      }
     ],
     "no-restricted-globals": [
       "off"
@@ -805,11 +845,20 @@
     "no-unreachable": [
       "error"
     ],
+    "no-unreachable-loop": [
+      "error"
+    ],
     "no-unsafe-finally": [
       "error"
     ],
     "no-unsafe-negation": [
       "error"
+    ],
+    "no-unsafe-optional-chaining": [
+      "error",
+      {
+        "disallowArithmeticOperators": false
+      }
     ],
     "no-unused-expressions": [
       "error",
@@ -820,6 +869,9 @@
       }
     ],
     "no-unused-labels": [
+      "error"
+    ],
+    "no-unused-private-class-members": [
       "error"
     ],
     "no-unused-vars": [
@@ -838,6 +890,9 @@
         "classes": true,
         "variables": false
       }
+    ],
+    "no-useless-backreference": [
+      "error"
     ],
     "no-useless-call": [
       "error"
@@ -1033,8 +1088,11 @@
     "prefer-numeric-literals": [
       "error"
     ],
-    "prefer-object-spread": [
+    "prefer-object-has-own": [
       "off"
+    ],
+    "prefer-object-spread": [
+      "warn"
     ],
     "prefer-promise-reject-errors": [
       "error",
