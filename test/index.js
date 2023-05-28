@@ -17,7 +17,7 @@ describe('eslint-config-scuba-squad', () => {
       unit
         .object(config.env)
         .hasProperty('node', true)
-        .hasProperty('es6', true);
+        .hasProperty('es2020', true);
     }); // end it
   }); // end describe #env
 
@@ -25,8 +25,8 @@ describe('eslint-config-scuba-squad', () => {
     it('should be an object hash', () => {
       unit
         .object(config.parserOptions)
-        .hasProperty('ecmaVersion', 2018)
-        .hasProperty('sourceType', 'script');
+        .hasProperty('ecmaVersion', 2020)
+        .hasProperty('sourceType', 'module');
     }); // end it
   }); // end describe #parserOptions
 
